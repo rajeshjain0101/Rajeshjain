@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>MyFolio - Rajesh Jain Portfolio</title>
+        <title>Portfolio - Rajesh Jain</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Portfolio HTML Template" name="keywords">
         <meta content="Portfolio HTML Template" name="description">
@@ -66,7 +66,7 @@
                 </nav>
 
                 <nav class="nav social-nav pull-right d-none d-lg-inline">
-                    <a href="#"><i class="fa fa-twitter"></i></a> <a href="https://www.facebook.com/share/1BxiZyQTRk/?mibextid=wwXIfr"><i class="fa fa-facebook"></i></a> <a href="https://www.linkedin.com/in/rajesh-jain-24816a271?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fa fa-linkedin"></i></a>
+                    <a href=""><i class="fa fa-twitter"></i></a> <a href="https://www.facebook.com/share/1BxiZyQTRk/?mibextid=wwXIfr"><i class="fa fa-facebook"></i></a> <a href="https://www.linkedin.com/in/rajesh-jain-24816a271?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fa fa-linkedin"></i></a>
                 </nav>
             </div>
         </div>
@@ -90,7 +90,8 @@
                             I'm a WordPress Developer with building custom, responsive, and high-performance websites. I specialize in developing and customizing themes using Elementor, Divi, WPBakery, and Bricks, along with ACF integration for dynamic, user-friendly content management. My expertise spans both front-end and back-end - from crafting pixel-perfect layouts with HTML, CSS, and JavaScript, to implementing custom functionality with PHP and MySQL. I also focus on website performance optimization, technical SEO, and ensuring smooth, scalable user experiences across devices. I've contributed to diverse projects including e-commerce sites, custom WordPress themes, and Gutenberg block development, improving site speed, usability, and SEO visibility. Key Skills: WordPress Development | ACF | Custom Themes | PHP | MySQL | HTML | CSS | Website Optimization |
                         </p>
                         
-                        <a href="#">Hire Me</a>
+                        <a href="javascript:void(0)" onclick="openModal()" class="hire-btn">Hire Me</a>
+
                     </div>
                 </div>
 
@@ -404,6 +405,25 @@ restoring files.
         </div>
         <!-- Contact End -->
 
+        <!-- Hire Me Popup Modal -->
+<div id="hireModal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal()">&times;</span>
+
+    <h2>Hire Me</h2>
+
+    <p><strong>Phone:</strong> <a href="tel:+8955899262">+895-589-9262</a></p>
+    <p><strong>Email:</strong> <a href="mailto:Rajeshjain0083@gmail.com">Rajeshjain0083@gmail.com</a></p>
+    <p><strong>Address:</strong> R.K Colony, Bhilwara (RAJ.)</p>
+
+    <div class="modal-buttons">
+      <a href="tel:+8955899262" class="call-btn">📞 Call Now</a>
+      <a href="mailto:Rajeshjain0083@gmail.com" class="mail-btn">✉ Send Email</a>
+    </div>
+  </div>
+</div>
+
+
         <!-- Footer Start -->
         <div class="footer">
             <div class="container">
@@ -438,4 +458,22 @@ restoring files.
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
     </body>
+    <script>
+function openModal() {
+  document.getElementById("hireModal").style.display = "flex";
+}
+
+function closeModal() {
+  document.getElementById("hireModal").style.display = "none";
+}
+
+// Close modal when clicking outside box
+window.onclick = function(event) {
+  let modal = document.getElementById("hireModal");
+  if (event.target === modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
 </html>
