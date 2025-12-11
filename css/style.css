@@ -1223,3 +1223,55 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #b08e72;
   color: #fff;
 }
+/* Main Box */
+.exp-box {
+    background: #eef1f4;
+    padding: 25px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    border-bottom: 4px solid #b29a8c;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hover Effect (original effect restored) */
+.exp-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Logo Size */
+.exp-logo img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    margin-bottom: 15px;
+    opacity: 0.95;
+}
+
+/* Date */
+.exp-date {
+    font-size: 15px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+/* Company Name */
+.exp-company {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+/* Designation */
+.exp-designation {
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+/* Description */
+.exp-detail {
+    font-size: 15px;
+    color: #444;
+}
