@@ -1,3 +1,6 @@
+/* ============================= */
+/* -------- General CSS -------- */
+/* ============================= */
 
 body {
     color: #666666;
@@ -6,10 +9,10 @@ body {
     background: #ffffff;
 }
 .career-box {
-    border: 1px solid #c4a98a; 
+    border: 1px solid #c4a98a; /* light brown border */
     padding: 20px;
     border-radius: 8px;
-    background-color: #faf6f2; 
+    background-color: #faf6f2; /* light cream background */
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 a {
@@ -63,6 +66,12 @@ h6 {
     padding-top: 12px;
     color: #ffffff;
 }
+
+
+
+/* ============================= */
+/* ------ Top Header CSS ------- */
+/* ============================= */
 
 .top-header {
     display: table;
@@ -124,6 +133,11 @@ h6 {
     font-size: 3vw;
 }
 
+
+
+/* ============================= */
+/* -------- Header CSS --------- */
+/* ============================= */
 
 .header {
     background: #AF9483;
@@ -413,6 +427,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 
+
+/* ============================= */
+/* ------- Header Title -------- */
+/* ============================= */
+
 .section-header h2,
 .section-header h3 {
     display: inline-block;
@@ -464,6 +483,12 @@ body.mobile-nav-active #mobile-nav-toggle {
         width: 70%;
     }
 }
+
+
+
+/* ============================= */
+/* ------- About Me CSS -------- */
+/* ============================= */
 
 .about {
     padding: 60px 0 15px 0;
@@ -543,6 +568,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 
+
+/* ============================= */
+/* ------- Experience CSS ------ */
+/* ============================= */
+
 .experience {
     position: relative;
     padding: 0;
@@ -619,6 +649,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 .experience .exp-detail {
     margin-bottom: 0;
 }
+
+
+
+/* ============================= */
+/* -------- Services CSS ------- */
+/* ============================= */
 
 .services {
     padding: 60px 0;
@@ -707,6 +743,12 @@ body.mobile-nav-active #mobile-nav-toggle {
     transition: 0.5s;
 }
 
+
+
+/* ============================= */
+/* -------- Counter CSS -------- */
+/* ============================= */
+
 .counters {
     padding: 60px 0;
     position: relative;
@@ -752,6 +794,11 @@ body.mobile-nav-active #mobile-nav-toggle {
     text-transform: uppercase;
 }
 
+
+
+/* ============================= */
+/* ------- Portfolio CSS ------- */
+/* ============================= */
 
 .portfolio {
     position: relative;
@@ -895,6 +942,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 
+
+/* ============================= */
+/* ------ Testimonials CSS ----- */
+/* ============================= */
+
 .testimonials {
     background: url("../img/testimonial-bg.jpg") center top no-repeat fixed;
     background-size: cover;
@@ -978,6 +1030,11 @@ body.mobile-nav-active #mobile-nav-toggle {
     background-color: #AF9483;
 }
 
+
+
+/* ============================= */
+/* -------- Contact CSS -------- */
+/* ============================= */
 
 .contact {
     position: relative;
@@ -1072,6 +1129,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 
+
+/* ============================= */
+/* --------- Footer CSS -------- */
+/* ============================= */
+
 .footer {
     position: relative;
     padding: 30px 0;
@@ -1088,7 +1150,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .footer .copyright p:last-child {
     margin: 0;
 }
-
+/* Modal Background */
 .modal {
   display: none;
   position: fixed;
@@ -1103,6 +1165,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   justify-content: center;
 }
 
+/* Modal Box */
 .modal-content {
   background: #fff;
   padding: 25px;
@@ -1113,11 +1176,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   animation: zoomIn 0.3s ease-in-out;
 }
 
+/* Animation */
 @keyframes zoomIn {
   from {transform: scale(0.7); opacity: 0;}
   to {transform: scale(1); opacity: 1;}
 }
 
+/* Close Button */
 .close {
   float: right;
   font-size: 22px;
@@ -1125,6 +1190,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #333;
 }
 
+/* Buttons */
 .modal-buttons a {
   display: inline-block;
   margin: 10px;
@@ -1143,6 +1209,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #2196F3;
 }
 
+/* Hire button styling */
 .hire-btn {
   display: inline-block;
   padding: 10px 20px;
@@ -1156,7 +1223,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #b08e72;
   color: #fff;
 }
-
+/* Main Box */
 .exp-box {
     background: #eef1f4;
     padding: 25px;
@@ -1166,12 +1233,13 @@ body.mobile-nav-active #mobile-nav-toggle {
     transition: all 0.3s ease-in-out;
 }
 
+/* Hover Effect (original effect restored) */
 .exp-box:hover {
     transform: translateY(-5px);
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
 }
 
-
+/* Logo Size */
 .exp-logo img {
     width: 60px;
     height: 60px;
@@ -1180,19 +1248,21 @@ body.mobile-nav-active #mobile-nav-toggle {
     opacity: 0.95;
 }
 
-
+/* Date */
 .exp-date {
     font-size: 15px;
     color: #666;
     margin-bottom: 10px;
 }
 
+/* Company Name */
 .exp-company {
     font-size: 18px;
     font-weight: 700;
     margin-bottom: 5px;
 }
 
+/* Designation */
 .exp-designation {
     font-size: 16px;
     font-style: italic;
@@ -1200,6 +1270,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     color: #555;
 }
 
+/* Description */
 .exp-detail {
     font-size: 15px;
     color: #444;
